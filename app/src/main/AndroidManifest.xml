@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="fitness_freak"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31" >
+        <activity
+            android:name=".MainActivity63"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity606"
+            android:exported="false"
+            android:label="six.six Activity"
+            android:parentActivityName=".MainActivity5" />
+        <activity
+            android:name=".MainActivity605"
+            android:exported="false"
+            android:label="six.five Activity"
+            android:parentActivityName=".MainActivity5" />
+        <activity
+            android:name=".MainActivity604"
+            android:exported="false"
+            android:label="six.four Activity"
+            android:parentActivityName=".MainActivity5" />
+        <activity
+            android:name=".MainActivity602"
+            android:exported="false"
+            android:label="six.two Activity"
+            android:parentActivityName=".MainActivity5" />
+        <activity
+            android:name=".MainActivity601"
+            android:exported="false"
+            android:label="six.one Activity"
+            android:parentActivityName=".MainActivity5" />
+        <activity
+            android:name=".MainActivity5"
+            android:exported="false"
+            android:label="Fifth Activity"
+            android:parentActivityName=".MainActivity4" />
+        <activity
+            android:name=".MainActivity4"
+            android:exported="false"
+            android:label="Fourth Activity"
+            android:parentActivityName=".MainActivity3" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false"
+            android:label="Third Activity"
+            android:parentActivityName=".MainActivity2" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false"
+            android:label="Second Activity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

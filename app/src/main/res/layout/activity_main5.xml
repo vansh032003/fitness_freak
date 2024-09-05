@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#F8F3F3"
+            android:textSize="50sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.533"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.024" />
+
+        <ImageButton
+            android:id="@+id/full_body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="openActivity"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/fullbody">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/chest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="openActivity2"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/chest">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/abs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="openActivity3"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/abs">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/arms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="openActivity4"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/arms">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="openActivity5"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/back">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/legs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="openActivity6"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/legs">
+
+        </ImageButton>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</ScrollView>
